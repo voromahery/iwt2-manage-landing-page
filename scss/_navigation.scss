@@ -1,0 +1,61 @@
+@import "./variable";
+
+.navigation {
+  display: none;
+}
+
+.navigation__list {
+  position: relative;
+  top: 3%;
+  background-color: #ffffff;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  opacity: 1;
+}
+
+.menu {
+  background-image: url("#{$image-path}icon-hamburger.svg");
+  width: 24px;
+}
+
+.menu,
+.toggle__menu:checked ~ .menu {
+  @include common-background-style;
+  display: block;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+.navigation__list--item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navigation__link {
+  font-weight: bold;
+}
+
+.toggle__menu {
+  display: none;
+}
+
+.nav_wrapper > .toggle__menu:checked ~ .navigation {
+  display: block;
+}
+
+.toggle__menu:checked ~ .menu {
+  background-image: url("#{$image-path}icon-close.svg");
+}
+
+// .nav_wrapper {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+// }
