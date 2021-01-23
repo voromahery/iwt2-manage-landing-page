@@ -7,19 +7,6 @@
   padding-bottom: 30px;
 }
 
-.masthead__title {
-  margin: 0;
-}
-
-.masthead__title--link {
-  background-image: url("#{$image-path}logo.svg");
-  display: block;
-  width: 123px;
-  height: 20px;
-  background-size: contain;
-  @include common-background-style;
-}
-
 .masthead__article--button {
   display: none;
 }

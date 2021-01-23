@@ -30,3 +30,123 @@
 .testimony__title {
   margin-bottom: 80px;
 }
+
+// @keyframes anisha {
+//   0% {
+//     opacity: 1;
+//     max-height: unset;
+//   }
+
+//   35% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   70% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   100% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+// }
+
+// #anisha {
+//   animation: anisha 10s;
+//   animation-direction: alternate;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: ease-in;
+// }
+
+// @keyframes ali {
+//   0% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   35% {
+//     opacity: 1;
+//     max-height: unset;
+//   }
+
+//   70% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   100% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+// }
+
+// #ali {
+//   animation: ali 10s;
+//   animation-direction: alternate;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: ease-in;
+// }
+
+// @keyframes richard {
+//   0% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   35% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   70% {
+//     opacity: 1;
+//     max-height: unset;
+//   }
+
+//   100% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+// }
+
+// #richard {
+//   animation: richard 10s;
+//   animation-direction: alternate;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: ease-in;
+// }
+
+// @keyframes shanai {
+//   0% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   35% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   70% {
+//     opacity: 0;
+//     max-height: 0;
+//   }
+
+//   100% {
+//     opacity: 1;
+//     max-height: unset;
+//   }
+// }
+
+// #shanai {
+//   animation: shanai 10s;
+//   animation-direction: alternate;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: ease-in;
+// }
+
+#shanai, #richard, #anisha {
+  display: none;
+}

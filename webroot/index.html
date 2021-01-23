@@ -8,8 +8,8 @@
   </head>
   <body>
     <header class="masthead">
-      <h1 class="masthead__title">
-        <a href="#" class="masthead__title--link">Manage</a>
+      <h1 class="masthead__title logo">
+        <a href="#" class="masthead__title--link logo_link">Manage</a>
       </h1>
       <div class="nav_wrapper">
         <input
@@ -118,17 +118,56 @@
 
         <div class="testimony__wrapper">
           <h2 class="testimony__title">What they’ve said</h2>
-          <div class="testimony__card">
+          <div class="testimony__card" id="anisha">
+            <img
+              src="./images/avatar-anisha.png"
+              class="testimony__card--image"
+              alt="Ali"
+            />
+            <h3 class="testimony__card-name">Anisha Li</h3>
+            <blockquote class="testimony__card--quote paragraph">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </blockquote>
+          </div>
+          <div class="testimony__card ali" id="ali">
             <img
               src="./images/avatar-ali.png"
               class="testimony__card--image"
               alt="Ali"
             />
-            <h3 class="testimony__card-name Ali">Ali Bravo</h3>
+            <h3 class="testimony__card-name">Ali Bravo</h3>
             <blockquote class="testimony__card--quote paragraph">
               “We have been able to cancel so many other subscriptions since
               using Manage. There is no more cross-channel confusion and
               everyone is much more focused.”
+            </blockquote>
+          </div>
+          <div class="testimony__card" id="richard">
+            <img
+              src="./images/avatar-richard.png"
+              class="testimony__card--image"
+              alt="Ali"
+            />
+            <h3 class="testimony__card-name richard">Richard Watts</h3>
+            <blockquote class="testimony__card--quote paragraph">
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone
+              I talk to!”
+            </blockquote>
+          </div>
+          <div class="testimony__card" id="shanai">
+            <img
+              src="./images/avatar-shanai.png"
+              class="testimony__card--image"
+              alt="Ali"
+            />
+            <h3 class="testimony__card-name shanai">Shanai Gough</h3>
+            <blockquote class="testimony__card--quote paragraph">
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
             </blockquote>
           </div>
           <p>Breadcrumb</p>
@@ -137,6 +176,68 @@
           </button>
         </div>
       </section>
+      <section class="section__extra">
+        <h2 class="extra__heeader">Simplify how your team works today.</h2>
+        <button class="extra__button">Get Started</button>
+      </section>
     </main>
+    <footer>
+      <form class="footer__form">
+        <input
+          type="text"
+          class="footer__form--input"
+          placeholder="Updates in your inbox…"
+        />
+        <button class="footer__form--button get__started--button">Go</button>
+      </form>
+      <div class="footer__wrapper">
+        <ul class="footer__nav--list">
+          <li class="footer__nav--list-item">
+            <a href="" class="nav__link">Home</a>
+          </li>
+          <li class="footer__nav--list-item">
+            <a href="" class="nav__link">Pricing</a>
+          </li>
+          <li class="footer__nav--list-item">
+            <a href="" class="nav__link">Products</a>
+          </li>
+          <li class="footer__nav--list-item">
+            <a href="" class="nav__link">About Us</a>
+          </li>
+        </ul>
+        <ul class="a11y__list">
+          <li class="a11y__list--item">
+            <a href="" class="a11y__link">Careers</a>
+          </li>
+          <li class="a11y__list--item">
+            <a href="" class="a11y__link">Community</a>
+          </li>
+          <li class="a11y__list--item">
+            <a href="" class="a11y__link">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="social_media__list">
+        <li class="social-media__list--item">
+          <a href="#" class="social-media__link facebook">Facebook</a>
+        </li>
+        <li class="social-media__list--item">
+          <a href="#" class="social-media__link youtube">Youtube</a>
+        </li>
+        <li class="social-media__list--item">
+          <a href="#" class="social-media__link twitter">Twitter</a>
+        </li>
+        <li class="social-media__list--item">
+          <a href="#" class="social-media__link pinterest">Pinterest</a>
+        </li>
+        <li class="social-media__list--item">
+          <a href="#" class="social-media__link instagram">Instagram</a>
+        </li>
+      </ul>
+      <h1 class="footer__title logo">
+        <a href="#" class="footer__title--link logo_link">Manage</a>
+      </h1>
+      <p class="copyright">Copyright 2020. All Rights Reserved</p>
+    </footer>
   </body>
 </html>
