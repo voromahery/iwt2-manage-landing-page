@@ -26,6 +26,9 @@ a {
 img {
   width: 100%; }
 
+blockquote {
+  margin: 0; }
+
 .title {
   display: none; }
 
@@ -120,6 +123,10 @@ img {
 .toggle__menu:checked ~ .menu {
   background-image: url("../images/icon-close.svg"); }
 
+.section__capability {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
 .capability__intro {
   text-align: center; }
 
@@ -150,3 +157,32 @@ img {
 .capability__article {
   margin-top: 40px;
   margin-bottom: 40px; }
+
+.capability__article--heading {
+  font-size: 16px; }
+
+.section__testimony {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+.testimony__card--image {
+  max-width: 60px; }
+
+.testimony__card {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #fafafa;
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+
+.testimony__card--image {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - calc(60px / 2)); }
+
+.testimony__title {
+  margin-bottom: 80px; }

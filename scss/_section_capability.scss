@@ -1,38 +1,47 @@
 @import "./variable";
 
+.section__capability {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .capability__intro {
-    text-align: center;
+  text-align: center;
 }
 
 .numbered_list {
-    color: $very-light-gray;
-    background-color: $bright-orange;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    margin-right: 10px;
+  color: $very-light-gray;
+  background-color: $bright-orange;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-right: 10px;
 }
 
 .capability__article--heading,
 .capability__intro--title,
 .header__article--heading {
-    color: $dark-blue;
+  color: $dark-blue;
 }
 
 .capability__article--heading {
-    background-color: $very-pale-red;
+  background-color: $very-pale-red;
 }
 
 .numbered_list,
 .capability__article--heading {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .capability__article {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.capability__article--heading {
+  font-size: 16px;
 }
