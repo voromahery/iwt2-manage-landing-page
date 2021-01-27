@@ -1,5 +1,6 @@
 body {
   max-width: 1440px;
+  font-size: 16px;
   background-position: 50px 5%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +12,8 @@ body {
 h1,
 h2,
 h3 {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #242d52; }
 
 button,
 input {
@@ -76,8 +78,7 @@ footer {
   cursor: pointer; }
 
 .paragraph {
-  color: #9095a7;
-  font-size: 16px; }
+  color: #9095a7; }
 
 .masthead {
   display: flex;
@@ -202,9 +203,6 @@ footer {
 
 .testimony__title {
   margin-bottom: 80px; }
-
-#shanai, #richard, #anisha {
-  display: none; }
 
 .section__extra {
   text-align: center;
