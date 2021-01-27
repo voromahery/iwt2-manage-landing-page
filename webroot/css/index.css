@@ -183,6 +183,9 @@ footer {
   margin-bottom: 40px;
   margin-top: 40px; }
 
+.testimony__wrapper {
+  position: relative; }
+
 .testimony__card--image {
   max-width: 60px; }
 
@@ -194,7 +197,8 @@ footer {
   background-color: #fafafa;
   position: relative;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 20px; }
 
 .testimony__card--image {
   position: absolute;
@@ -203,6 +207,24 @@ footer {
 
 .testimony__title {
   margin-bottom: 80px; }
+
+.next {
+  right: 2px; }
+
+.prev {
+  left: 2px; }
+
+.next,
+.prev {
+  position: absolute;
+  top: calc(50% + 8.2px);
+  cursor: pointer;
+  font-size: 32px;
+  color: grey; }
+
+.next:hover,
+.prev:hover {
+  color: black; }
 
 .section__extra {
   text-align: center;
