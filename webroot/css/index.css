@@ -220,11 +220,11 @@ footer {
   top: calc(50% + 8.2px);
   cursor: pointer;
   font-size: 32px;
-  color: grey; }
+  color: transparent; }
 
-.next:hover,
-.prev:hover {
-  color: black; }
+.card__container:hover .next,
+.card__container:hover .prev {
+  color: grey; }
 
 .section__extra {
   text-align: center;

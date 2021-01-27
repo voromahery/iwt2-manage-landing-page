@@ -7,12 +7,11 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides((slideIndex = n));
-  console.log(n);
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("testimony__card");
+  let i;
+  let slides = document.getElementsByClassName("testimony__card");
   if (n > slides.length) {
     slideIndex = 1;
   }
