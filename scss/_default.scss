@@ -36,6 +36,10 @@ input {
   border-bottom-right-radius: 50px;
 }
 
+button, a {
+  cursor: pointer;
+}
+
 ul {
   @include reset-list;
 }

@@ -45,3 +45,20 @@
 .capability__article--heading {
   font-size: 16px;
 }
+
+@media (min-width: 800px) {
+  .section__capability {
+    display: flex;
+    flex-direction: row;
+    gap: 77px;
+  }
+
+  .capability__intro {
+    text-align: justify;
+  }
+
+  .capability__intro,
+  .capability__wrapper {
+    flex-basis: 50%;
+  }
+}

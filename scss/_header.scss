@@ -15,3 +15,21 @@
   text-align: center;
   margin-bottom: 80px;
 }
+
+@media (min-width: $desktop) {
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 77px;
+  }
+
+  .header__article {
+    text-align: justify;
+  }
+
+  .header__article,
+  .header__picture {
+    flex-basis: 50%;
+  }
+}

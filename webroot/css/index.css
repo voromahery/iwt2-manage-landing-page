@@ -27,6 +27,9 @@ input {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; }
 
+button, a {
+  cursor: pointer; }
+
 ul {
   list-style: none;
   padding: 0;
@@ -93,6 +96,18 @@ footer {
 .header {
   text-align: center;
   margin-bottom: 80px; }
+
+@media (min-width: 800px) {
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 77px; }
+  .header__article {
+    text-align: justify; }
+  .header__article,
+  .header__picture {
+    flex-basis: 50%; } }
 
 .navigation {
   display: none; }
@@ -178,6 +193,17 @@ footer {
 .capability__article--heading {
   font-size: 16px; }
 
+@media (min-width: 800px) {
+  .section__capability {
+    display: flex;
+    flex-direction: row;
+    gap: 77px; }
+  .capability__intro {
+    text-align: justify; }
+  .capability__intro,
+  .capability__wrapper {
+    flex-basis: 50%; } }
+
 .section__testimony {
   text-align: center;
   margin-bottom: 40px;
@@ -232,6 +258,9 @@ footer {
   background-color: #f25f3a;
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.extra__header {
+  color: #FFFFFF; }
 
 .extra__button {
   background-color: #fafafa;
