@@ -28,15 +28,16 @@ input {
   border: none;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: $padding-left-mobile;
+  padding-right: $padding-right-mobile;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
@@ -59,15 +60,15 @@ blockquote {
 section,
 header,
 footer {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: $padding-left-mobile;
+  padding-right: $padding-right-mobile;
 }
 
 .logo {
   margin: 0;
 }
 
-.logo_link{
+.logo_link {
   background-image: url("#{$image-path}logo.svg");
   display: block;
   width: 123px;
@@ -98,4 +99,13 @@ footer {
 
 .paragraph {
   color: $dark-grayish-blue;
+}
+
+@media (min-width: $desktop) {
+  section,
+  header,
+  footer {
+    padding-left: $padding-left-desktop;
+    padding-right: $padding-right-desktop;
+  }
 }

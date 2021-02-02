@@ -27,7 +27,8 @@ input {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px; }
 
-button, a {
+button,
+a {
   cursor: pointer; }
 
 ul {
@@ -82,6 +83,13 @@ footer {
 
 .paragraph {
   color: #9095a7; }
+
+@media (min-width: 800px) {
+  section,
+  header,
+  footer {
+    padding-left: 100px;
+    padding-right: 100px; } }
 
 .masthead {
   display: flex;
@@ -154,6 +162,28 @@ footer {
 
 .toggle__menu:checked ~ .menu {
   background-image: url("../images/icon-close.svg"); }
+
+@media (min-width: 600px) {
+  .navigation {
+    display: block; }
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    position: unset;
+    background-color: unset;
+    text-align: unset;
+    max-width: unset;
+    margin: unset;
+    border-radius: unset;
+    opacity: unset; }
+  .menu {
+    background-image: unset;
+    width: unset; }
+  .menu,
+  .toggle__menu:checked ~ .menu {
+    display: none; } }
 
 .section__capability {
   margin-top: 40px;

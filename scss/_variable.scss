@@ -28,10 +28,19 @@ $lighter: 300;
 $regular: 400;
 $bold: 700;
 
+// Paddings
+$padding-left-mobile: 20px;
+$padding-right-mobile: 20px;
+$padding-left-tablet: 50px;
+$padding-right-tablet: 50px;
+$padding-left-desktop: 100px;
+$padding-right-desktop: 100px;
+
 // Images and icons path
 $image-path: "../images/";
 $font-path: "../fonts/";
 
 // Break point
-
+$mobile: 300px;
+$tablet: 600px;
 $desktop: 800px;

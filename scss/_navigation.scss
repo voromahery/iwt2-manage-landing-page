@@ -59,3 +59,33 @@
 //   top: 0;
 //   left: 50%;
 //  }
+
+@media (min-width: $tablet) {
+  .navigation {
+    display: block;
+  }
+
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    position: unset;
+    background-color: unset;
+    text-align: unset;
+    max-width: unset;
+    margin: unset;
+    border-radius: unset;
+    opacity: unset;
+  }
+
+  .menu {
+    background-image: unset;
+    width: unset;
+  }
+
+  .menu,
+  .toggle__menu:checked ~ .menu {
+    display: none;
+  }
+}
