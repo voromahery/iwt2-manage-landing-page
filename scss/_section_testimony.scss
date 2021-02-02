@@ -178,3 +178,9 @@
   color: grey;
 }
 
+@media (min-width: $desktop) {
+  .next,
+  .prev {
+    display: none;
+  }
+}
