@@ -400,3 +400,29 @@ footer ul {
 
 .copyright {
   color: #9095a7; }
+
+@media (min-width: 600px) {
+  footer {
+    align-items: start;
+    flex-direction: row-reverse; } }
+
+@media (min-width: 1000px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  .social_media__list {
+    justify-content: unset; }
+  .footer__section--three {
+    grid-row: 1/3;
+    text-align: justify; }
+  .footer__wrapper {
+    grid-column: 2/3; }
+  .footer__section--three,
+  .footer__wrapper {
+    grid-row: 1/3; }
+  .a11y__list--item,
+  .footer__nav--list-item {
+    margin-top: 0; }
+  .footer__title--link,
+  .footer__wrapper {
+    margin: 0; } }
