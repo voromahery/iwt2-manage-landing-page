@@ -102,10 +102,21 @@ footer {
 }
 
 @media (min-width: $desktop) {
+  body {
+    font-size: 18px;
+  }
+
   section,
   header,
   footer {
     padding-left: $padding-left-desktop;
     padding-right: $padding-right-desktop;
+  }
+
+  .get__started--button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 }

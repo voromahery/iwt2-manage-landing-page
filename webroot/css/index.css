@@ -85,11 +85,18 @@ footer {
   color: #9095a7; }
 
 @media (min-width: 1000px) {
+  body {
+    font-size: 18px; }
   section,
   header,
   footer {
     padding-left: 100px;
-    padding-right: 100px; } }
+    padding-right: 100px; }
+  .get__started--button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px; } }
 
 .masthead {
   display: flex;
@@ -111,8 +118,10 @@ footer {
     flex-direction: row-reverse;
     align-items: center;
     gap: 77px; }
+  .header__article--heading {
+    font-size: 64px; }
   .header__article {
-    text-align: justify; }
+    text-align: start; }
   .masthead__article--button {
     display: block; }
   .header__article,
@@ -287,7 +296,9 @@ footer {
 @media (min-width: 1000px) {
   .next,
   .prev {
-    display: none; } }
+    display: none; }
+  .testimony__title {
+    font-size: 48px; } }
 
 .section__extra {
   text-align: center;
@@ -319,6 +330,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between; } }
+
+@media (min-width: 1000px) {
+  .extra__header {
+    font-size: 48px;
+    max-width: 550px;
+    text-align: start; }
+  .extra__button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px; } }
 
 footer {
   background-color: #1d1e25;

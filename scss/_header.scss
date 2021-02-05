@@ -24,8 +24,12 @@
     gap: 77px;
   }
 
+  .header__article--heading {
+    font-size: 64px;
+  }
+
   .header__article {
-    text-align: justify;
+    text-align: start;
   }
 
   .masthead__article--button {
